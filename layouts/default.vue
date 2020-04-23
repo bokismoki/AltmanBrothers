@@ -1,8 +1,17 @@
 <template>
   <div>
+    <Navigation />
     <nuxt />
   </div>
 </template>
+
+<script>
+export default {
+  components: {
+    Navigation: () => import('~/components/Navigation')
+  }
+}
+</script>
 
 <style>
 html {
@@ -17,10 +26,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+*::before,
+*::after {
+  @apply box-content p-0 m-0;
 }
 </style>
