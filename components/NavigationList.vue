@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="items-center hidden text-sm font-semibold text-white uppercase navigation-list lg:flex lg:text-base xl:text-lg"
+    class="navigation-list items-center hidden text-sm font-semibold text-white uppercase lg:flex lg:text-base xl:text-lg"
   >
     <li class="relative mx-2 group">
       <a href="#">About</a>

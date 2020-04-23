@@ -13,6 +13,11 @@ module.exports = {
         'main-blue-darkest': '#011426',
         'main-yellow': '#ccac47',
         'main-yellow-light': '#d2b66c'
+      },
+      spacing: {
+        '500px': '500px',
+        '75vh': '75vh',
+        '28': '7rem'
       }
     }
   },
