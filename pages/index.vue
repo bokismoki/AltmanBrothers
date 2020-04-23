@@ -1,10 +1,16 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <HeroVideo />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  components: {
+    HeroVideo: () => import('~/components/HeroVideo')
+  }
+}
 </script>
 
-<style>
+<style scoped>
 </style>
