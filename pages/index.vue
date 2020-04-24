@@ -2,6 +2,7 @@
   <div class="home">
     <HeroVideo />
     <AboutUs />
+    <LuxuryRealEstate />
   </div>
 </template>
 
@@ -9,7 +10,8 @@
 export default {
   components: {
     HeroVideo: () => import('~/components/HeroVideo'),
-    AboutUs: () => import('~/components/AboutUs')
+    AboutUs: () => import('~/components/AboutUs'),
+    LuxuryRealEstate: () => import('~/components/LuxuryRealEstate')
   }
 }
 </script>

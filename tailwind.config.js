@@ -26,7 +26,8 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'group-hover'],
     display: ['responsive', 'group-hover'],
     width: ['responsive', 'hover', 'group-hover'],
-    height: ['responsive', 'hover', 'group-hover']
+    height: ['responsive', 'hover', 'group-hover'],
+    opacity: ['responsive', 'hover', 'group-hover']
   },
   plugins: []
 }
