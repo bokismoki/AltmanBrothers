@@ -34,28 +34,17 @@ export default {
         autoplay: {
           delay: 5000,
           disableOnInteraction: false
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3
+          },
+          768: {
+            slidesPerView: 2
+          }
         }
       }
     }
-  },
-  methods: {
-    setSlidesPerView() {
-      if (window.innerWidth >= 1024) {
-        this.swiperOption.slidesPerView = 3
-      } else if (window.innerWidth >= 768) {
-        this.swiperOption.slidesPerView = 2
-      } else {
-        this.swiperOption.slidesPerView = 1
-      }
-    }
-  },
-  mounted() {
-    window.addEventListener('resize', this.setSlidesPerView)
-    this.setSlidesPerView()
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.setSlidesPerView)
-    window.removeEventListener('load', this.setSlidesPerView)
   }
 }
 </script>
