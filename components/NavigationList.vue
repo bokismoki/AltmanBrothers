@@ -4,7 +4,10 @@
   >
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">About</a>
-      <ul class="absolute hidden text-sm group-hover:block">
+      <ul
+        class="absolute hidden text-sm p-5 group-hover:block"
+        :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
+      >
         <li class="mt-1">Josh Altman</li>
         <li class="mt-1">Matthew Altman</li>
         <li class="mt-1">Heather Altman</li>
@@ -13,7 +16,10 @@
     </li>
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Properties</a>
-      <ul class="absolute hidden text-sm group-hover:block">
+      <ul
+        class="absolute hidden text-sm p-5 group-hover:block"
+        :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
+      >
         <li class="mt-1">Current Listings</li>
         <li class="mt-1">Pocket Listings</li>
         <li class="mt-1">Sold Listings</li>
@@ -24,21 +30,30 @@
     </li>
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Media</a>
-      <ul class="absolute hidden text-sm group-hover:block">
+      <ul
+        class="absolute hidden text-sm p-5 group-hover:block"
+        :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
+      >
         <li class="mt-1">TV</li>
         <li class="mt-1">Blog</li>
       </ul>
     </li>
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Training-Speaking</a>
-      <ul class="absolute hidden text-sm group-hover:block">
+      <ul
+        class="absolute hidden text-sm p-5 group-hover:block"
+        :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
+      >
         <li class="mt-1">Training</li>
         <li class="mt-1">Speaking</li>
       </ul>
     </li>
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Contact</a>
-      <ul class="absolute hidden text-sm group-hover:block">
+      <ul
+        class="absolute hidden text-sm p-5 group-hover:block"
+        :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
+      >
         <li class="mt-1">Hire Us</li>
       </ul>
     </li>
@@ -47,7 +62,8 @@
 
 <script>
 export default {
-  name: 'NavigationList'
+  name: 'NavigationList',
+  props: ['atTop']
 }
 </script>
 
