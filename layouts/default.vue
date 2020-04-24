@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navigation />
+    <Navigation :atTop="atTop" />
     <nuxt />
   </div>
 </template>
@@ -9,6 +9,22 @@
 export default {
   components: {
     Navigation: () => import('~/components/Navigation')
+  },
+  data() {
+    return {
+      atTop: true
+    }
+  },
+  methods: {
+    checkScrollPosition() {
+      window.scrollY <= 50 ? (this.atTop = true) : (this.atTop = false)
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.checkScrollPosition)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.checkScrollPosition)
   }
 }
 </script>

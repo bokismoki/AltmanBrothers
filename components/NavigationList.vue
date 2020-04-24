@@ -2,7 +2,7 @@
   <ul
     class="navigation-list items-center hidden text-sm font-semibold text-white uppercase lg:flex lg:text-base xl:text-lg"
   >
-    <li class="relative mx-2 group">
+    <li class="relative mx-2 group xl:mx-5">
       <a href="#">About</a>
       <ul class="absolute hidden text-sm group-hover:block">
         <li class="mt-1">Josh Altman</li>
@@ -11,7 +11,7 @@
         <li class="mt-1">The Team</li>
       </ul>
     </li>
-    <li class="relative mx-2 group">
+    <li class="relative mx-2 group xl:mx-5">
       <a href="#">Properties</a>
       <ul class="absolute hidden text-sm group-hover:block">
         <li class="mt-1">Current Listings</li>
@@ -22,21 +22,21 @@
         <li class="mt-1">Sellers</li>
       </ul>
     </li>
-    <li class="relative mx-2 group">
+    <li class="relative mx-2 group xl:mx-5">
       <a href="#">Media</a>
       <ul class="absolute hidden text-sm group-hover:block">
         <li class="mt-1">TV</li>
         <li class="mt-1">Blog</li>
       </ul>
     </li>
-    <li class="relative mx-2 group">
+    <li class="relative mx-2 group xl:mx-5">
       <a href="#">Training-Speaking</a>
       <ul class="absolute hidden text-sm group-hover:block">
         <li class="mt-1">Training</li>
         <li class="mt-1">Speaking</li>
       </ul>
     </li>
-    <li class="relative mx-2 group">
+    <li class="relative mx-2 group xl:mx-5">
       <a href="#">Contact</a>
       <ul class="absolute hidden text-sm group-hover:block">
         <li class="mt-1">Hire Us</li>
