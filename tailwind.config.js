@@ -19,6 +19,9 @@ module.exports = {
         '500px': '500px',
         '75vh': '75vh',
         '28': '7rem'
+      },
+      screens: {
+        smd: '500px'
       }
     }
   },
