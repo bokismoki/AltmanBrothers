@@ -3,6 +3,7 @@
     <HeroVideo />
     <AboutUs />
     <LuxuryRealEstate />
+    <TvShow />
   </div>
 </template>
 
@@ -11,7 +12,8 @@ export default {
   components: {
     HeroVideo: () => import('~/components/HeroVideo'),
     AboutUs: () => import('~/components/AboutUs'),
-    LuxuryRealEstate: () => import('~/components/LuxuryRealEstate')
+    LuxuryRealEstate: () => import('~/components/LuxuryRealEstate'),
+    TvShow: () => import('~/components/TvShow')
   }
 }
 </script>
