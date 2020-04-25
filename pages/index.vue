@@ -5,6 +5,7 @@
     <LuxuryRealEstate />
     <TvShow />
     <Spotlight />
+    <Events />
   </div>
 </template>
 
@@ -15,7 +16,8 @@ export default {
     AboutUs: () => import('~/components/AboutUs'),
     LuxuryRealEstate: () => import('~/components/LuxuryRealEstate'),
     TvShow: () => import('~/components/TvShow'),
-    Spotlight: () => import('~/components/Spotlight')
+    Spotlight: () => import('~/components/Spotlight'),
+    Events: () => import('~/components/Events')
   }
 }
 </script>
