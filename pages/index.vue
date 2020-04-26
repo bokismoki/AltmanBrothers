@@ -1,5 +1,11 @@
 <template>
   <div class="home">
+    <img
+      class="hidden fixed w-screen h-screen md:block"
+      src="~/assets/img/gray-lines-bg.png"
+      alt="Gray Lines Bg"
+    />
+    <div class="relative">
     <HeroVideo />
     <AboutUs />
     <LuxuryRealEstate />
@@ -9,6 +15,7 @@
     <Social />
     <ContactUs />
     <Footer />
+    </div>
   </div>
 </template>
 
