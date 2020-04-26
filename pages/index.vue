@@ -8,6 +8,7 @@
     <Events />
     <Social />
     <ContactUs />
+    <Footer />
   </div>
 </template>
 
@@ -21,7 +22,8 @@ export default {
     Spotlight: () => import('~/components/Spotlight'),
     Events: () => import('~/components/Events'),
     Social: () => import('~/components/Social'),
-    ContactUs: () => import('~/components/ContactUs')
+    ContactUs: () => import('~/components/ContactUs'),
+    Footer: () => import('~/components/Footer')
   }
 }
 </script>
