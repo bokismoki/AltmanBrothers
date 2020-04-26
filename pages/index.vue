@@ -6,6 +6,7 @@
     <TvShow />
     <Spotlight />
     <Events />
+    <Social />
   </div>
 </template>
 
@@ -17,7 +18,8 @@ export default {
     LuxuryRealEstate: () => import('~/components/LuxuryRealEstate'),
     TvShow: () => import('~/components/TvShow'),
     Spotlight: () => import('~/components/Spotlight'),
-    Events: () => import('~/components/Events')
+    Events: () => import('~/components/Events'),
+    Social: () => import('~/components/Social')
   }
 }
 </script>
