@@ -7,6 +7,7 @@
     <Spotlight />
     <Events />
     <Social />
+    <ContactUs />
   </div>
 </template>
 
@@ -19,7 +20,8 @@ export default {
     TvShow: () => import('~/components/TvShow'),
     Spotlight: () => import('~/components/Spotlight'),
     Events: () => import('~/components/Events'),
-    Social: () => import('~/components/Social')
+    Social: () => import('~/components/Social'),
+    ContactUs: () => import('~/components/ContactUs')
   }
 }
 </script>
