@@ -4,7 +4,7 @@
   >
     <div class="lg:bg-main-blue lg:w-1/2 lg:pb-5 lg:pr-32">
       <img
-        class="-mt-10 mx-auto lg:-ml-16 lg:-mt-5 md:max-w-xl xl:-mt-40 xl:max-w-2xl"
+        class="-mt-10 relative mx-auto lg:-ml-16 lg:-mt-5 md:max-w-xl xl:-mt-40 xl:max-w-2xl"
         src="~/assets/img/about-us-josh-matt-altman.png"
         alt="Josh & Matt Altman"
       />

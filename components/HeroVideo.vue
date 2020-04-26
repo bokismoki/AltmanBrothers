@@ -31,4 +31,11 @@ export default {
 </script>
 
 <style scopeed>
+@supports (display: -ms-grid) {
+  .hero-video {
+    min-width: 100vw;
+    width: auto;
+    height: auto;
+  }
+}
 </style>

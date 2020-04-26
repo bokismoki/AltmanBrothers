@@ -1,6 +1,6 @@
 <template>
   <section class="contact-us mt-5">
-    <img src="~/assets/img/brothers-on-boat.jpg" alt="Brothers On Boat" />
+    <img class="w-full" src="~/assets/img/brothers-on-boat.jpg" alt="Brothers On Boat" />
     <div class="px-5 md:px-10">
       <div class="lg:flex lg:justify-center">
         <SectionNum num="07" title="Contact Us" />
