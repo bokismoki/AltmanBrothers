@@ -16,7 +16,7 @@
         <br />Brothers
       </h1>
       <p
-        class="mt-10 leading-tight opacity-75 max-w-2xl mx-auto lg:pr-20 lg:mx-0"
+        class="mt-10 leading-tight opacity-75 max-w-2xl mx-auto lg:text-sm lg:pr-20 lg:mx-0 xl:text-base"
       >The Altman Brothers are among the top producing real estate agents in the country. Josh and Matt Altman managed to carve out a niche in the Los Angeles high end market. This includes staking claim to top tinsel town turf in the Platinum Triangle of Beverly Hills, Bel-Air, and Holmby Hills, and everywhere from Malibu to the Hollywood Hills and Downtown LA. Together they have seasoned experience and ability to foster solid relationships. The Altman Brothers are full-service real estate experts who strive to service the entire spectrum of exclusive clients Los Angeles has to offer. Altman clients are luxury buyers and high-end sellers: entertainers, professional athletes and high-net- worth individuals whose real estate holdings dot the globe, to clients with small family homes and short sale needs.</p>
       <div class="text-center lg:text-left">
         <CallToActionBtn text="Read More" />

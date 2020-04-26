@@ -5,7 +5,7 @@
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">About</a>
       <ul
-        class="absolute hidden text-sm p-5 group-hover:block"
+        class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
       >
         <li class="mt-1">Josh Altman</li>
@@ -17,7 +17,7 @@
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Properties</a>
       <ul
-        class="absolute hidden text-sm p-5 group-hover:block"
+        class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
       >
         <li class="mt-1">Current Listings</li>
@@ -31,7 +31,7 @@
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Media</a>
       <ul
-        class="absolute hidden text-sm p-5 group-hover:block"
+        class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
       >
         <li class="mt-1">TV</li>
@@ -41,7 +41,7 @@
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Training-Speaking</a>
       <ul
-        class="absolute hidden text-sm p-5 group-hover:block"
+        class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
       >
         <li class="mt-1">Training</li>
@@ -51,7 +51,7 @@
     <li class="relative mx-2 group xl:mx-5">
       <a href="#">Contact</a>
       <ul
-        class="absolute hidden text-sm p-5 group-hover:block"
+        class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
       >
         <li class="mt-1">Hire Us</li>

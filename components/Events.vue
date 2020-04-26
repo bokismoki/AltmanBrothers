@@ -1,8 +1,8 @@
 <template>
-  <section class="events mt-32 mx-auto">
+  <section class="events mt-48 mx-auto">
     <div class="md:flex md:items-start">
       <img
-        class="max-w-sm md:absolute md:max-w-md lg:max-w-xl xl:max-w-2xl"
+        class="max-w-sm w-full md:absolute md:max-w-md lg:max-w-xl xl:max-w-2xl"
         src="~/assets/img/training-speaking.png"
         alt="Altman Brothers Training & Speaking"
       />

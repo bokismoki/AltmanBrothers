@@ -3,7 +3,7 @@
     <client-only placeholder="Loading...">
       <swiper class="swiper" :options="swiperOption">
         <swiper-slide v-for="(slide, index) in slides" :key="index">
-          <div class="grid grid-cols-3 gap-3">
+          <div class="grid grid-cols-3 gap-1">
             <NewsItem v-for="(news, index) in slide" :key="index" :news="news" />
           </div>
         </swiper-slide>
