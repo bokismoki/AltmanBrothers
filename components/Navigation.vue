@@ -1,7 +1,7 @@
 <template>
   <nav
     class="navigation fixed top-0 left-0 right-0 flex items-center bg-main-blue justify-between p-3 z-50 sm:p-8"
-    :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-85': !atTop}"
+    :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-95': !atTop}"
   >
     <div v-if="atTop" class="gradient hidden absolute bg-black h-full w-full left-0 lg:block"></div>
     <button class="relative">

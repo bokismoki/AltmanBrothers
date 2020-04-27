@@ -1,6 +1,7 @@
 <template>
-  <footer class="footer px-5 py-10 md:px-10 bg-main-blue-light text-center">
-    <div class="max-w-3xl mx-auto">
+  <footer class="footer mt-16 px-5 py-10 md:px-10 bg-main-blue-light text-center">
+    <div class="max-w-3xl gold relative mx-auto">
+      <div class="gold-2 absolute w-full h-full"></div>
       <img class="mx-auto" src="~/assets/img/logo-white.png" alt="The Altman Brothers Logo" />
       <h2 class="text-main-yellow-light uppercase mt-5 font-semibold">Worldwide Real Estate</h2>
       <div class="grid grid-cols-2 text-white opacity-75 uppercase mt-5 max-w-xs mx-auto">
@@ -55,4 +56,29 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 1024px) {
+  .gold::before,
+  .gold::after,
+  .gold-2::before,
+  .gold-2::after {
+    @apply inline-block bg-main-yellow-light absolute;
+    content: '';
+  }
+  .gold::after,
+  .gold-2::after {
+    @apply w-3 h-full top-0 -mt-20;
+  }
+  .gold::before {
+    @apply w-2/3 h-3 left-0 -ml-20 top-0 -mt-20;
+  }
+  .gold::after {
+    @apply left-0 -ml-20;
+  }
+  .gold-2::before {
+    @apply w-full h-3 right-0 -mr-20 bottom-0 mb-20;
+  }
+  .gold-2::after {
+    @apply right-0 -mr-20;
+  }
+}
 </style>

@@ -6,7 +6,7 @@
         src="~/assets/img/training-speaking.png"
         alt="Altman Brothers Training & Speaking"
       />
-      <div class="px-5 md:px-10 md:ml-auto">
+      <div class="gold relative px-5 md:px-10 md:ml-auto">
         <div class="md:flex md:justify-end">
           <SectionNum num="05" title="Events" />
         </div>
@@ -19,7 +19,9 @@
         >Take advantage of this opportunity to meet with the “Million Dollar Man”, Josh Altman, to discuss his proven multi-million dollar strategies and techniques to get you and your business to the next level.</p>
       </div>
     </div>
-    <div class="px-5 flex flex-col mt-10 max-w-xs mx-auto md:px-10 md:flex-row md:mt-16 md:max-w-full md:justify-end">
+    <div
+      class="px-5 flex flex-col mt-10 max-w-xs mx-auto md:px-10 md:flex-row md:mt-16 md:max-w-full md:justify-end"
+    >
       <CallToActionBtn text="Training" :lg="true" />
       <CallToActionBtn text="Speaking" :lg="true" />
     </div>
@@ -38,6 +40,21 @@ export default {
 
 <style scoped>
 .events {
-    max-width: 1280px;
+  max-width: 1280px;
+}
+@media (min-width: 1024px) {
+  .gold::before,
+  .gold::after {
+    @apply inline-block bg-main-yellow-light absolute top-0;
+    content: '';
+  }
+  .gold::before {
+    @apply w-1/2 h-3 right-0 mr-10;
+  }
+  .gold::after {
+    @apply w-3;
+    height: 53%;
+    left: 42%;
+  }
 }
 </style>
