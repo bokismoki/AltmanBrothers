@@ -8,6 +8,7 @@
       />
     </div>
     <div
+      v-scrollanimation
       class="news p-5 pb-64 sm:px-10 sm:h-64 lg:w-1/2 lg:pl-40 lg:relative"
       :style="{'background': `url(${bg}) center/cover no-repeat`}"
     >
@@ -50,6 +51,16 @@ export default {
     content: '';
     height: 9.4rem;
     left: -162px;
+  }
+
+  .before-enter {
+    @apply opacity-0 transition-all duration-1000;
+    transform: translateX(500px);
+  }
+
+  .enter {
+    @apply opacity-100;
+    transform: translateX(0);
   }
 }
 </style>

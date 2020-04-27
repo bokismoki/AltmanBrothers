@@ -5,7 +5,7 @@
       <div class="lg:flex lg:justify-center">
         <SectionNum num="07" title="Contact Us" />
       </div>
-      <h1 class="uppercase font-medium text-4xl leading-none mt-10 text-center">
+      <h1 v-scrollanimation class="uppercase font-medium text-4xl leading-none mt-10 text-center">
         <span class="font-bold">Get In</span>
         <br />Touch
       </h1>
@@ -29,4 +29,15 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 1024px) {
+  .before-enter {
+    @apply opacity-0 transition-all duration-1000;
+    transform: translateY(100px);
+  }
+
+  .enter {
+    @apply opacity-100;
+    transform: translateY(0);
+  }
+}
 </style>

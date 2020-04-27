@@ -2,7 +2,12 @@
   <footer class="footer mt-16 px-5 py-10 md:px-10 bg-main-blue-light text-center">
     <div class="max-w-3xl gold relative mx-auto">
       <div class="gold-2 absolute w-full h-full"></div>
-      <img class="mx-auto" src="~/assets/img/logo-white.png" alt="The Altman Brothers Logo" />
+      <img
+        v-scrollanimation
+        class="mx-auto"
+        src="~/assets/img/logo-white.png"
+        alt="The Altman Brothers Logo"
+      />
       <h2 class="text-main-yellow-light uppercase mt-5 font-semibold">Worldwide Real Estate</h2>
       <div class="grid grid-cols-2 text-white opacity-75 uppercase mt-5 max-w-xs mx-auto">
         <ul>
@@ -79,6 +84,16 @@ export default {
   }
   .gold-2::after {
     @apply right-0 -mr-20;
+  }
+
+  .before-enter {
+    @apply opacity-0 transition-all duration-1000;
+    transform: translateX(500px);
+  }
+
+  .enter {
+    @apply opacity-100;
+    transform: translateX(0);
   }
 }
 </style>

@@ -48,9 +48,7 @@ html {
   @apply box-content p-0 m-0;
 }
 
-@supports (display: -ms-grid) {
-  body {
-    overflow-x: hidden;
-  }
+body {
+  overflow-x: hidden;
 }
 </style>

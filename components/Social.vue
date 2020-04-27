@@ -15,6 +15,7 @@
       />
     </div>
     <div
+      v-scrollanimation
       class="px-5 relative z-10 bg-main-blue py-10 md:px-10 md:w-3/5 lg:px-20"
       :style="{'background': `url(${dogBg})`}"
     >
@@ -30,7 +31,7 @@
           class="mt-10 leading-tight opacity-75 text-white"
         >Follow us on social media for the most exclusive real estate news and photos from our amazing listings</p>
       </div>
-      <SocialGrid />
+      <SocialGrid v-scrollanimation />
     </div>
   </section>
 </template>
@@ -57,5 +58,17 @@ export default {
 }
 .boatImg {
   height: 125%;
+}
+@media (min-width: 1024px) {
+  .before-enter {
+    @apply opacity-0 transition-all duration-1000;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+  }
+
+  .enter {
+    @apply opacity-100;
+    transform: rotateY(0deg);
+  }
 }
 </style>

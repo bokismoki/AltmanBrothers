@@ -10,6 +10,7 @@
       <div class="max-w-2xl mx-auto">
         <div class="relative cursor-pointer">
           <img
+            v-scrollanimation
             class="border-4 border-black mt-10"
             src="~/assets/img/video-play-placeholder.jpg"
             alt="Video Play Placeholder Image"
@@ -65,6 +66,15 @@ export default {
     right: -15%;
     top: 50%;
     transform: translateY(-50%);
+  }
+  .before-enter {
+    @apply opacity-0 transition-all duration-1000;
+    transform: translateX(-500px);
+  }
+
+  .enter {
+    @apply opacity-100;
+    transform: translateX(0);
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img
-      class="hidden fixed w-screen h-screen md:block"
+      class="hidden fixed w-screen object-cover h-screen md:block"
       src="~/assets/img/gray-lines-bg.png"
       alt="Gray Lines Bg"
     />

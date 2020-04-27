@@ -2,6 +2,7 @@
   <section class="events mt-48 mx-auto">
     <div class="md:flex md:items-start">
       <img
+        v-scrollanimation
         class="max-w-sm w-full md:absolute md:max-w-md lg:max-w-xl xl:max-w-2xl"
         src="~/assets/img/training-speaking.png"
         alt="Altman Brothers Training & Speaking"
@@ -55,6 +56,16 @@ export default {
     @apply w-3;
     height: 53%;
     left: 42%;
+  }
+
+  .before-enter {
+    @apply opacity-0 transition-all duration-1000;
+    transform: translateX(-500px);
+  }
+
+  .enter {
+    @apply opacity-100;
+    transform: translateX(0);
   }
 }
 </style>
