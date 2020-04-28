@@ -110,4 +110,10 @@ export default {
 </script>
 
 <style scoped>
+.swiper-container-initialized {
+  @apply overflow-hidden !important;
+}
+.swiper-wrapper {
+  @apply flex !important;
+}
 </style>

@@ -50,4 +50,7 @@ export default {
 </script>
 
 <style scoped>
+.swiper-container-initialized {
+  @apply overflow-hidden;
+}
 </style>
