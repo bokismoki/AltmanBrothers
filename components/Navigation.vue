@@ -5,12 +5,12 @@
   >
     <div v-if="atTop" class="gradient hidden absolute bg-black h-full w-full left-0 lg:block"></div>
     <button class="relative">
-      <img class="w-40 sm:w-64" src="~/assets/img/logo.png" alt="The Altman Brothers Logo" />
+      <img class="w-40 sm:w-64" src="~/assets/img/logos/logo.png" alt="The Altman Brothers Logo" />
     </button>
     <NavigationList :atTop="atTop" />
     <div class="flex items-center relative">
       <a href="#">
-        <img src="~/assets/img/de-logo-circle.png" alt="Douglas Elliman Logo Circle" />
+        <img src="~/assets/img/logos/de-logo-circle.png" alt="Douglas Elliman Logo Circle" />
       </a>
       <SideNavToggler />
     </div>

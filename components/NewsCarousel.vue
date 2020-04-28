@@ -41,65 +41,65 @@ export default {
       slides: [
         [
           {
-            logo: require('~/assets/img/billboard-logo.png'),
+            logo: require('~/assets/img/logos/billboard-logo.png'),
             bgColor: 'bg-gray-500'
           },
           {
-            logo: require('~/assets/img/cnbc-logo.png'),
+            logo: require('~/assets/img/logos/cnbc-logo.png'),
             bgColor: 'bg-white'
           },
           {
-            logo: require('~/assets/img/people-logo.png'),
+            logo: require('~/assets/img/logos/people-logo.png'),
             bgColor: 'bg-main-yellow-light'
           },
           {
-            logo: require('~/assets/img/forbes-logo.png'),
+            logo: require('~/assets/img/logos/forbes-logo.png'),
             bgColor: 'bg-main-blue'
           },
           {
-            logo: require('~/assets/img/weeklyus-logo.png'),
+            logo: require('~/assets/img/logos/weeklyus-logo.png'),
             bgColor: 'bg-white'
           },
           {
-            logo: require('~/assets/img/hollywood-logo.png'),
+            logo: require('~/assets/img/logos/hollywood-logo.png'),
             bgColor: 'bg-main-yellow-light'
           }
         ],
         [
           {
-            logo: require('~/assets/img/tmz-logo.png'),
+            logo: require('~/assets/img/logos/tmz-logo.png'),
             bgColor: 'bg-white'
           },
           {
-            logo: require('~/assets/img/trd-logo.png'),
+            logo: require('~/assets/img/logos/trd-logo.png'),
             bgColor: 'bg-main-yellow-light'
           },
           {
-            logo: require('~/assets/img/los-angeles-times-logo.png'),
+            logo: require('~/assets/img/logos/los-angeles-times-logo.png'),
             bgColor: 'bg-gray-500'
           },
           {
-            logo: require('~/assets/img/today-logo.png'),
+            logo: require('~/assets/img/logos/today-logo.png'),
             bgColor: 'bg-main-blue'
           },
           {
-            logo: require('~/assets/img/nbc-logo.png'),
+            logo: require('~/assets/img/logos/nbc-logo.png'),
             bgColor: 'bg-gray-500'
           },
           {
-            logo: require('~/assets/img/bravo-logo.png'),
+            logo: require('~/assets/img/logos/bravo-logo.png'),
             bgColor: 'bg-white'
           },
           {
-            logo: require('~/assets/img/everythin-logo.png'),
+            logo: require('~/assets/img/logos/everythin-logo.png'),
             bgColor: 'bg-main-yellow-light'
           },
           {
-            logo: require('~/assets/img/maxim-logo.png'),
+            logo: require('~/assets/img/logos/maxim-logo.png'),
             bgColor: 'bg-main-yellow-light'
           },
           {
-            logo: require('~/assets/img/tmz-logo.png'),
+            logo: require('~/assets/img/logos/tmz-logo.png'),
             bgColor: 'bg-main-blue'
           }
         ]

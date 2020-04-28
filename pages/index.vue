@@ -6,15 +6,15 @@
       alt="Gray Lines Bg"
     />
     <div class="relative">
-    <HeroVideo />
-    <AboutUs />
-    <LuxuryRealEstate />
-    <TvShow />
-    <Spotlight />
-    <Events />
-    <Social />
-    <ContactUs />
-    <Footer />
+      <HeroVideo />
+      <AboutUs />
+      <LuxuryRealEstate />
+      <TvShow />
+      <Spotlight />
+      <Events />
+      <Social />
+      <ContactUs />
+      <Footer />
     </div>
   </div>
 </template>
@@ -23,14 +23,14 @@
 export default {
   components: {
     HeroVideo: () => import('~/components/HeroVideo'),
-    AboutUs: () => import('~/components/AboutUs'),
-    LuxuryRealEstate: () => import('~/components/LuxuryRealEstate'),
-    TvShow: () => import('~/components/TvShow'),
-    Spotlight: () => import('~/components/Spotlight'),
-    Events: () => import('~/components/Events'),
-    Social: () => import('~/components/Social'),
-    ContactUs: () => import('~/components/ContactUs'),
-    Footer: () => import('~/components/Footer')
+    AboutUs: () => import('~/components/sections/AboutUs'),
+    LuxuryRealEstate: () => import('~/components/sections/LuxuryRealEstate'),
+    TvShow: () => import('~/components/sections/TvShow'),
+    Spotlight: () => import('~/components/sections/Spotlight'),
+    Events: () => import('~/components/sections/Events'),
+    Social: () => import('~/components/sections/Social'),
+    ContactUs: () => import('~/components/sections/ContactUs'),
+    Footer: () => import('~/components/sections/Footer')
   }
 }
 </script>

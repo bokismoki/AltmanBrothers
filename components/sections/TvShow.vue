@@ -5,7 +5,10 @@
         <SectionNum num="03" title="Tv Show" />
       </div>
       <div class="gold relative w-64 mt-5 mx-auto">
-        <img src="~/assets/img/million-dollar-listing-la-logo.png" alt="Million Dolar Listing Logo" />
+        <img
+          src="~/assets/img/logos/million-dollar-listing-la-logo.png"
+          alt="Million Dolar Listing Logo"
+        />
       </div>
       <div class="max-w-2xl mx-auto">
         <div class="relative cursor-pointer">
