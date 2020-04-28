@@ -25,18 +25,18 @@
       <div class="relative">
         <a
           class="block text-white mt-5 text-lg hover:text-main-yellow"
-          href="#"
+          href="#/"
         >Beverly Hills Celebrity Real Estate</a>
         <a
           class="block text-white text-lg hover:text-main-yellow"
-          href="#"
+          href="#/"
         >Beverly Hills Million Dollar Listings</a>
         <hr class="opacity-50 mt-5 max-w-lg mx-auto" />
         <a
           class="block text-white mt-5 text-lg hover:text-main-yellow"
-          href="#"
+          href="#/"
         >Beverly Hills A-Listt Real Estate</a>
-        <a class="block text-white text-lg hover:text-main-yellow" href="#">Beverly Hills Mansions</a>
+        <a class="block text-white text-lg hover:text-main-yellow" href="#/">Beverly Hills Mansions</a>
         <hr class="opacity-50 mt-5 max-w-lg mx-auto" />
         <p
           class="text-white leading-tight text-sm mt-5"

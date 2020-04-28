@@ -3,7 +3,7 @@
     class="navigation-list items-center hidden text-sm font-semibold text-white uppercase lg:flex lg:text-base xl:text-lg"
   >
     <li class="relative mx-2 group xl:mx-5">
-      <a href="#">About</a>
+      <a href="#/">About</a>
       <ul
         class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-95': !atTop}"
@@ -15,7 +15,7 @@
       </ul>
     </li>
     <li class="relative mx-2 group xl:mx-5">
-      <a href="#">Properties</a>
+      <a href="#/">Properties</a>
       <ul
         class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-95': !atTop}"
@@ -29,7 +29,7 @@
       </ul>
     </li>
     <li class="relative mx-2 group xl:mx-5">
-      <a href="#">Media</a>
+      <a href="#/">Media</a>
       <ul
         class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-95': !atTop}"
@@ -39,7 +39,7 @@
       </ul>
     </li>
     <li class="relative mx-2 group xl:mx-5">
-      <a href="#">Training-Speaking</a>
+      <a href="#/">Training-Speaking</a>
       <ul
         class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-95': !atTop}"
@@ -49,7 +49,7 @@
       </ul>
     </li>
     <li class="relative mx-2 group xl:mx-5">
-      <a href="#">Contact</a>
+      <a href="#/">Contact</a>
       <ul
         class="absolute hidden text-sm p-5 mt-px group-hover:block"
         :class="{'lg:bg-transparent': atTop, 'lg:bg-main-blue-light-95': !atTop}"

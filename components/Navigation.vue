@@ -9,7 +9,7 @@
     </button>
     <NavigationList :atTop="atTop" />
     <div class="flex items-center relative">
-      <a href="#">
+      <a href="#/">
         <img src="~/assets/img/logos/de-logo-circle.png" alt="Douglas Elliman Logo Circle" />
       </a>
       <SideNavToggler />

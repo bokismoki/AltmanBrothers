@@ -10,7 +10,7 @@
       <h2 class="max-w-xs relative">{{property.location}}</h2>
       <div class="relative text-4xl mt-5">{{property.price}}</div>
       <a
-        href="#"
+        href="#/"
         class="opacity-0 h-0 bg-main-yellow self-start px-5 py-2 text-black font-medium text-base group-hover:opacity-100 group-hover:h-6 transition-all duration-300"
       >View Details</a>
     </div>
