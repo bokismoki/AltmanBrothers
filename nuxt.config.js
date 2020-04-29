@@ -6,6 +6,9 @@ export default {
   */
   head: {
     titleTemplate: 'The Altman Brothers - Los Angeles Luxury Homes for Sale',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -49,7 +52,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-svg-loader'
+    'nuxt-svg-loader',
+    'nuxt-lazy-load'
   ],
   /*
   ** Build configuration

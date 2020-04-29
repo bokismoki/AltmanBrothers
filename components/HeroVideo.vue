@@ -3,7 +3,6 @@
     class="hero-video object-cover w-full h-64 mt-16 sm:mt-28 lg:h-500px lg:mt-0 xl:h-75vh"
     preload="auto"
     data-video-blob="true"
-    data-poster="https://www.thealtmanbrothers.com/wp-content/uploads/2018/03/slider-cover.jpg"
     autoplay
     muted
     loop
